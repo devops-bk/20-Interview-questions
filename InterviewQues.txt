@@ -1,0 +1,135 @@
+Q.1) What are lists and tuples? What is the key difference between the two?
+
+Ans.1) Lists and Tuples are both sequence data types that can store a collection of objects in Python. The objects stored in both sequences can have different data types. Lists are represented with square brackets ['sara', 6, 0.19], while tuples are represented with parantheses ('ansh', 5, 0.97).
+The key difference between the two is that while lists are mutable, tuples on the other hand are immutable objects. This means that lists can be modified, appended or sliced on-the-go but tuples remain constant and cannot be modified in any manner.
+ 
+
+Q.2) What are Dict and List comprehensions?
+Ans.2) Python comprehensions, like decorators, are syntactic sugar constructs that help build altered and filtered lists, dictionaries or sets from a given list, dictionary or set. Using comprehensions, saves a lot of time and code that might be considerably more verbose (containing more lines of code).
+
+
+Q.3) Which data types are supported in Python?
+Ans.3) Python has following data types:int, float, Strings, lists, tuples, dictionaries, set, bool and none.
+
+
+Q.4) What is a dictionary in Python?
+Ans.4) The built-in datatypes in Python is called dictionary. It defines one-to-one relationship between keys and values. Dictionaries contain pair of keys and their corresponding values. Dictionaries are indexed by keys.
+
+
+Q.5) What are the types of operator used in Python?
+Ans.5) The types are : Arithmetic Operators
+		       Comparison Operators
+		       Python Assignment Operators
+	               Logical Operators or Bitwise Operators
+		       Membership Operators
+		       Identity Operators
+
+
+Q.6) what are membership operator and identity operator?
+Ans.6) Membership operators are operators used to validate the membership of a value. It test for membership in a sequence, such as strings, lists, or tuples.
+       They are - not in, in
+
+       Identity operators are usually used to determine the type of data a certain variable contains.
+       They are - is, is not
+
+
+Q.7)  How can the ternary operators be used in python?
+Ans.7) The Ternary operator is the operator that is used to show the conditional statements. This consists of the true or false values with a statement that has to be evaluated for it.
+Syntax:
+The Ternary operator will be given as:
+[on_true] if [expression] else [on_false]x, y = 25, 50big = x if x < y else y
+
+
+Q.8) Does membership operator work on all data types?
+Ans.8) No, it works only on iterable datatypes only and those are list, tuple, set, dict, string and range function.
+
+
+Q.9) How does break, continue and pass work?
+Ans.9) Break	: Allows loop termination when some condition is met and the control is transferred to the next statement.
+       Continue	: Allows skipping some part of a loop when some specific condition is met and the control is transferred to the beginning of the loop
+       Pass	: Used when you need some block of code syntactically, but you want to skip its execution. This is basically a null operation. Nothing happens when 	          this is executed. 
+
+
+Q.10) What conditional statements are available in python?
+Ans.10) Conditional statements are the programming statements which alter the course of execution based on a condition.Like other functional programming languages, Python has following conditional statements.
+> If
+> If-Else
+> If-Elif-Else
+Conditional Statements are also called Control Statements.
+
+
+Q.11) Explain nested if-else.
+Ans.11) A nested if is an if statement that is the target of another if statement. Nested if statements means an if statement inside another if statement. Yes, Python allows us to nest if statements within if statements. i.e, we can place an if statement inside another if statement.
+Syntax:
+
+if (condition1):
+   # Executes when condition1 is true
+   if (condition2): 
+      # Executes when condition2 is true
+   # if Block is end here
+# if Block is end here
+
+
+Q.12) Explain if-elif-else. 
+Ans.12)Here, a user can decide among multiple options. The if statements are executed from the top down. As soon as one of the conditions controlling the if is true, the statement associated with that if is executed, and the rest of the ladder is bypassed. If none of the conditions is true, then the final else statement will be executed.
+Syntax:-
+
+if (condition):
+    statement
+elif (condition):
+    statement
+.
+.
+else:
+    statement
+
+
+Q.13) What is a built-in function that Python uses to iterate over a number sequence?
+Ans.13) Range() generates a list of numbers, which is used to iterate over for loops.
+The range() function accompanies two sets of parameters.
+a. range(stop)
+  > stop: It is the no. of integers to generate and starts from zero. eg. range(3) == [0, 1, 2].
+b. range([start], stop[, step])
+  > Start: It is the starting no. of the sequence.
+  > Stop: It specifies the upper limit of the sequence.
+  > Step: It is the incrementing factor for generating the sequence.
+
+
+Q.14) How does For loop and While loop doffer and when do you choose them?
+Ans.14) For loop is generally used to iterate through the elements of various collection types such as List, Tuple, Set, and Dictionary.
+While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other programming languages.
+
+
+Q.15) Explain for-else loop in python.
+Ans.15) Interestingly, Python allows using an optional else statement along with the “for” loop. The code under the else clause executes after the completion of the “for” loop. However, if the loop stops due to a “break” call, then it’ll skip the “else” clause.
+
+
+Q.16) What is the for loop syntax? Explain.
+Ans.16)  In Python, you can use the “for” loop in the following manner.
+
+		for iter in sequence:
+    			statements(iter)
+
+The “iter” represents the iterating variable. It gets assigned with the successive values from the input sequence.
+The “sequence” may refer to any of the following Python objects such as a list, a tuple or a string.
+
+  
+Q.17) What are functions in Python?
+Ans.17) A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+
+Q.18) What is __init__?
+Ans.18) __init__ is a method or constructor in Python. This method is automatically called to allocate memory when a new object/ instance of a class is created. All classes have the __init__ method.
+
+
+Q.19) What is self in Python?
+Ans.19) Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it’s optional.  It helps to differentiate between the methods and attributes of a class with local variables.
+The self variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
+
+
+Q.20) What is **args and **kwargs?
+Ans.20) *args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is expecting a list or a tuple as argument to the function.
+ **kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
+
+
+
